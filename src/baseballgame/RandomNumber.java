@@ -12,7 +12,7 @@ public class RandomNumber {
 
 		for (int i = 0; i < numbers.length; i++) {
 			int num;
-			num = random.nextInt(10);
+			num = random.nextInt(9)+ 1;
 
 			boolean duplicateCheck = false;
 
